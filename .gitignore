@@ -247,3 +247,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Platform IO
+.pioenvs/
