@@ -253,4 +253,4 @@ dkms.conf
 .pioenvs
 .piolibdeps
 .vscode/c_cpp_properties.json
-cmake_build_debug/
+cmake-build-debug/
