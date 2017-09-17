@@ -6,8 +6,8 @@
             "request": "launch",
             "cwd": "${workspaceRoot}",
             "name": "PlatformIO Debugger",
-            "target": "/Users/hu/Projects/PeasantCore/.pioenvs/nodemcu-32s/firmware.elf",
-            "gdbpath": "/Users/hu/.platformio/penv/bin/piodebuggdb",
+            "target": "/home/hu/Projects/PeasantCore/.pioenvs/nodemcu-32s/firmware.elf",
+            "gdbpath": "/home/hu/.platformio/penv/bin/piodebuggdb",
             "autorun": [ "source .pioinit" ]
         }
     ]

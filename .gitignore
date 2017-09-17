@@ -254,3 +254,4 @@ dkms.conf
 .piolibdeps
 .vscode/c_cpp_properties.json
 cmake-build-debug/
+CMakeListsPrivate.txt
