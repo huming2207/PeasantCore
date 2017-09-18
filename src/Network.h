@@ -7,23 +7,21 @@
 
 #include <Arduino.h>
 #include <Preferences.h>
+#include <time.h>
 #include "WiFi.h"
+#include "Macros.h"
 
-#define NETWORK_PREF_NAME "net_pref"
-#define WIFI_AP_SSID_PERFIX "Peasant-"
-#define WIFI_AP_PASSWORD "1234567890"
 
 class Network
 {
     public:
-        bool init();
-        bool saveCredential();
-        bool loadCredential();
-        
+        bool init(bool forceReset);
+        void setTime();
+
     private:
         Preferences networkPreferences;
-        bool firstBoot;
         void wifiEventCallback(WiFiEvent_t event);
+        String timeZone = String("UTC");
 };
 
 #endif //PEASANTCORE_NETWORK_H
